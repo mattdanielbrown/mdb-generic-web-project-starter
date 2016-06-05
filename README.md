@@ -35,7 +35,7 @@ I generally import 3 partials into the style.scss file.
 
 The [_layout.scss](https://github.com/mattdanielbrown/mdb-generic-web-project-starter/blob/master/partials/_layout.scss) is where I handle media queries. There, I also include a light mixin to build grids on the fly:
 
-```
+```scss
 // breakpoints
 
 $S:     480px;   
@@ -66,7 +66,7 @@ $L:     1170px;
 
  The [_mixin.scss](https://github.com/mattdanielbrown/mdb-generic-web-project-starter/blob/master/partials/_mixins.scss) file is where I store custom mixins. For this template (and as a general principle) I try to keep it very simple. However, mixin organization can vary widely between projects.
 
- ```
+ ```scss
  // center vertically and/or horizontally an absolute positioned element
 
 @mixin center($xy:xy) {
@@ -132,7 +132,7 @@ $L:     1170px;
 
  Lastly, variables for colors, fonts, and any other need are handled in [_variables.scss](https://github.com/mattdanielbrown/mdb-generic-web-project-starter/blob/master/partials/_variables.scss).
 
- ```
+ ```scss
  // colors
 
 $color-1: #333333; // main text
