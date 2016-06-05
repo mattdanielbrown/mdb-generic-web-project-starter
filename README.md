@@ -10,7 +10,7 @@ Obviously, there's an index.html, stylesheets, and javascript...
 
 ### File Structure
 
-![Project Starter File Structure]()
+![Project Starter File Structure](https://raw.githubusercontent.com/mattdanielbrown/mdb-generic-web-project-starter/master/file-organization.png)
 
 ### CSS Preprocessors
 
